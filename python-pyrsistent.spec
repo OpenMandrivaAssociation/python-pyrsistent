@@ -2,8 +2,8 @@
 %global pypi_name pyrsistent
 
 Name:           python-%{pypi_name}
-Version:	0.15.5
-Release:	2
+Version:	0.15.6
+Release:	1
 Summary:        Persistent/Functional/Immutable data structures
 Group:          Development/Python
 License:        MIT
