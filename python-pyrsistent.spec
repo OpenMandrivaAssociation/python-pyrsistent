@@ -8,7 +8,7 @@ Summary:        Persistent/Functional/Immutable data structures
 Group:          Development/Python
 License:        MIT
 URL:            https://github.com/tobgu/pyrsistent/
-Source0:	https://files.pythonhosted.org/packages/30/86/53a88c0a57698fa228db29a4000c28f4124823010388cb7042fe6e2be8dd/pyrsistent-0.15.5.tar.gz
+Source0:	https://files.pythonhosted.org/packages/30/86/53a88c0a57698fa228db29a4000c28f4124823010388cb7042fe6e2be8dd/pyrsistent-%{version}.tar.gz
 
 BuildRequires:  python2-devel
 BuildRequires:	python2dist(enum34)
