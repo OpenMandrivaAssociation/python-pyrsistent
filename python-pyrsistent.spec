@@ -2,13 +2,13 @@
 %global pypi_name pyrsistent
 
 Name:           python-%{pypi_name}
-Version:	0.15.6
+Version:	0.15.7
 Release:	1
 Summary:        Persistent/Functional/Immutable data structures
 Group:          Development/Python
 License:        MIT
 URL:            https://github.com/tobgu/pyrsistent/
-Source0:	https://files.pythonhosted.org/packages/30/86/53a88c0a57698fa228db29a4000c28f4124823010388cb7042fe6e2be8dd/pyrsistent-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/90/aa/cdcf7ef88cc0f831b6f14c8c57318824c9de9913fe8de38e46a98c069a35/pyrsistent-0.15.7.tar.gz
 
 BuildRequires:  python2-devel
 BuildRequires:	python2dist(enum34)
