@@ -3,7 +3,7 @@
 
 Name:		python-%{pypi_name}
 Version:	0.17.3
-Release:	2
+Release:	3
 Summary:	Persistent/Functional/Immutable data structures
 Group:		Development/Python
 License:	MIT
