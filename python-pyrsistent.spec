@@ -39,8 +39,8 @@ rm -rf %{pypi_name}.egg-info
 
 %files -n python-%{pypi_name}
 %doc README.rst
-%{python3_sitearch}/pvectorc.*.so
+#{python3_sitearch}/pvectorc.*.so
 %{python3_sitearch}/_pyrsistent_version.py
 %dir %{python3_sitearch}/%{pypi_name}
 %{python3_sitearch}/%{pypi_name}/*
-%{python3_sitearch}/%{pypi_name}-%{version}-py%{py_ver}.egg-info
+%{python3_sitearch}/%{pypi_name}-*.dist-info
