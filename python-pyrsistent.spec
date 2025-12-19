@@ -45,3 +45,4 @@ rm -rf %{pypi_name}.egg-info
 %dir %{python3_sitearch}/%{pypi_name}
 %{python3_sitearch}/%{pypi_name}/*
 %{python3_sitearch}/%{pypi_name}-*.dist-info
+%{python3_sitearch}/__pycache__/_pyrsistent_version.cpython-*.pyc
