@@ -11,10 +11,11 @@ URL:		https://github.com/tobgu/pyrsistent/
 Source0:	https://files.pythonhosted.org/packages/source/p/pyrsistent/pyrsistent-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(python)
-BuildRequires:	python3dist(setuptools)
-BuildRequires:	python3dist(six)
+BuildRequires:	python%{pyver}dist(setuptools)
+BuildRequires:	python%{pyver}dist(six)
+BuildRequires:  python%{pyver}dist(pip)
 %{?python_provide:%python_provide python3-%{pypi_name}}
-Requires:	python3dist(six)
+Requires:	python%{pyver}dist(six)
 
 %description
 Pyrsistent is a number of persistent collections (by some referred to as
