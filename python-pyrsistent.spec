@@ -16,6 +16,7 @@ BuildRequires:	python%{pyver}dist(six)
 BuildRequires:  python%{pyver}dist(pip)
 %{?python_provide:%python_provide python3-%{pypi_name}}
 Requires:	python%{pyver}dist(six)
+BuildArch:	noarch
 
 %description
 Pyrsistent is a number of persistent collections (by some referred to as
