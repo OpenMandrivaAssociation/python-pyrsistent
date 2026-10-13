@@ -3,14 +3,14 @@
 
 Name:		python-%{pypi_name}
 Version:	0.20.0
-Release:	2
+Release:	3
 Summary:	Persistent/Functional/Immutable data structures
 Group:		Development/Python
 License:	MIT
 URL:		https://github.com/tobgu/pyrsistent/
 Source0:	https://files.pythonhosted.org/packages/source/p/pyrsistent/pyrsistent-%{version}.tar.gz
 
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(six)
 BuildRequires:  python%{pyver}dist(pip)
